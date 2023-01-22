@@ -48,4 +48,249 @@ header {
     color: black;
 }
 
-/*** ***/
+/*** body ***/
+
+.linhaC {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Darker Grotesque";
+    font-size: 30px;
+    background-image: linear-gradient(270deg, #ffffff 0%, #fdfdfd 100%);
+    background-repeat: no-repeat;
+    background-size: 15% 3px;
+    background-position: center bottom;
+    transition: background-size 500ms ease;
+    cursor: pointer;
+    font-weight: 700;
+}
+.linhaC:hover {
+    background-size: 100% 3px;;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("lobaogrande.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+#titulo_body {
+    position: absolute;
+    width: 665px;
+    height: 130px;
+    left: 370px;
+    top: 250px;
+
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 130px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#texto_inicial {
+    position: absolute;
+    width: 630px;
+    height: 75px;
+    left: 385px;
+    top: 413px;
+
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    /* or 83% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#texto_principal {
+    color: #fafafa;
+    font-family: "Darker Grotesque";
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 1px 10px #000000b9;
+    line-height: 33px;
+    font-weight: 400;
+    font-style: normal;
+    width: 960px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C5680;
+    height: 50vh;
+}
+
+.subtitulo {
+    color: #DEB959;
+    font-family: "Darker Grotesque";
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.subtitulo2 {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Darker Grotesque';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    top: 5.8%;
+
+    color: #DEB959;
+}
+.valores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color:#FFFFFF;
+    padding: 5rem 6.5rem;
+}
+.todos_valores {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    gap: 2rem;
+}
+.bloco_valores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    flex-flow: wrap;
+    gap: 3rem;
+}
+.valor{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 12.5rem;
+}
+.img{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    /* padding: 5rem; */
+    justify-content: center;
+    align-items: center;
+}
+.head_value {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 3.6vh;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.text_valor{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.45vmin;
+    line-height: 3.7vh;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+#subtitulo3 {
+    color: #DEB959;
+    font-family: "Darker Grotesque";
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.exemplos {
+    margin: 2em 10em;
+}
+
+.grupo1, .grupo2 {
+    display: flex;
+}
+
+.grupo2 {
+    flex-direction: row-reverse;
+    margin-top: 3em;
+}
+
+.dados_do_lobo1 {
+    margin-left: 4rem;
+}
+
+.dados_do_lobo2 {
+    text-align: right;
+    margin-right: 4rem;
+}
+
+#nome_do_lobo {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+#idade {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+#descricao {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 1.5em;
+}
+
+.div_esquerda {
+    position: absolute;
+    width: 360px;
+    height: 275px;
+    background-color: #2C5680;
+    transform: translate(-10%,-10%);
+    border: 4px solid #333333;
+    z-index: -1;
+}
+
+.div_direita {
+    position: absolute;
+    width: 360px;
+    height: 275px;
+    background-color: #2C5680;
+    transform: translate(10%,-10%);
+    border: 4px solid #333333;
+    z-index: -1;
+}
