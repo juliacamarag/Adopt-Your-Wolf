@@ -1,0 +1,51 @@
+/*** header ***/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15vw;
+    position: sticky;
+    top: 0;
+    background-color: #85CDF5;
+    width: 100%;
+    padding: 4px 0px;
+    z-index: 100;
+}
+
+.linha {
+    text-decoration: none;
+    color: black;
+    font-family: "Darker Grotesque";
+    font-size: 30px;
+    background-image: linear-gradient(270deg, #2C5680 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-size: 65% 3px;
+    background-position: right bottom;
+    transition: background-size 500ms ease;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.slinha {
+    text-decoration: none;
+    color: black;
+    font-family: "Darker Grotesque";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.linha:hover {
+    background-size: 100% 3px;;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: black;
+}
+
+/*** ***/
