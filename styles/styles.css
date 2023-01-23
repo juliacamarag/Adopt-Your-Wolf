@@ -259,6 +259,37 @@ footer {
     font-family: 'Darker Grotesque';
 }
 
+
+.adopt {
+    height: 47px;
+    width: 130px;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    background-color:#DEB959;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+  }
+  
+#search-input {
+    padding: 10px;
+    max-width: 900px;
+    flex-grow: 1;
+}
+
+
 /* show lobinho! */
 .lobinhos {
     margin: 2em 10em;
@@ -404,3 +435,134 @@ footer {
     opacity: 0.8;
 }
 
+/* add lobinho */ 
+
+.add_lobinho {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add_lobinho_div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65vw;
+    height: 140vh;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 3% 1% 0% 2%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.add_lobinho_h1 {
+    position: relative;
+    width: fit-content;
+    height: 19%;
+    font-size: 4.5vw;
+    line-height: 81px;
+    text-align: center;
+    color: #000000;
+}
+
+.add_lobinho_form {
+    position: relative;
+    width: 86.7%;
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    color: #000000;
+}
+
+.add_lobinho_div2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    height: 20%;
+}
+
+.add_lobinho_divnome {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    width: 70%;
+    font-size: 2.3vmax;
+    font-weight: 520;
+}
+
+.add_lobinho_input {
+    background: #E6E6E6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#input_name, #input_age, #input_link {
+    height: 33%;
+}
+#input_description {
+    height: 100%;
+}
+.add_lobinho_button {
+    position: relative;
+    margin-top: 3%;
+    align-self: center;
+    width: 26%;
+    height: 13%;
+    background: linear-gradient(0deg, #2C5680, #2C5680),
+    linear-gradient(0deg, #333333, #333333);
+    font-size: 1.7vmax;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.add_lobinho_divage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    width: 30%;
+    font-size: 2.3vmax;
+    font-weight: 520;
+}
+.add_lobinho_divlink {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    gap: 12%;
+    font-size: 2.3vmax;
+    font-weight: 520;
+}
+.adicionar_lobinho_div_link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    gap: 12%;
+    font-size: 2.3vmax;
+    font-weight: 520;
+}
+
+.adicionar_lobinho_div_description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    gap: 5%;
+
+    font-size: 2.3vmax;
+    font-weight: 520;
+} 
