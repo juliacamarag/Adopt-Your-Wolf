@@ -7,6 +7,7 @@
     <title>Adote seu Lobinho</title>
     <link rel="stylesheet" href="../styles/Reset.css">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,9 +17,38 @@
         </div>
         <a class="linha" href="../pages/quemSomos.html">Quem Somos</a>
     </header>
-    <main>
-
+    <main class="secmain">
+        <div class="bloco_adotar">
+            <div class="topo">
+                <img class="image-lobo" src="../src/lobo1.png" alt="">
+                <div class="titulo">
+                <h2>Adote o(a) NomeDoLobo</h2>
+                <p>ID:314569</p>
+                </div>
+            </div>
+            <form action="">
+                <div class="inputs">
+                    <div class="nomeIdade"> <!--div para o nome e a idade-->
+                        <div class="single-input">
+                            <label for="nome">Seu nome:</label>
+                            <input type="text" name="" id="nome" class="input"> 
+                        </div>
+                        <div class="single-input idade1" >
+                            <label for="idade">Idade:</label>
+                            <input type="number" name="" id="idade" class="input">
+                        </div>
+                    </div>
+                    <div class="single-input">
+                        <input type="text" name="" id="email" class="input">
+                        <label for="email">E-mail:</label>
+                    </div>
+                    <button id="btn_adotar">Adotar</button>
+                </div>
+            </form>
+        </div>
+    </div>
     </main>
+    
     <div id="linhazinha"></div>
     <footer>
         <div class="map">
