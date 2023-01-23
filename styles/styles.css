@@ -124,8 +124,7 @@ header {
     max-width: 195px;
 }
 
-
-.eclipse{
+.img{
     display: flex;
     background-color: white;
     border-radius: 50%;
@@ -242,21 +241,15 @@ footer {
 .infos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: 90vh;
+    align-items: center;
     gap: 3rem;
     padding: 3rem 10rem;
     color: #000000;
-    max-width: 960px;
-}
-
-.qsMain {
-    display: flex;
-    justify-content: center;
-    min-height: 60vh;
 }
 
 .infos h1{
-    font-weight: bold;
+    font-family: 'Roboto';
     font-size: 48px;
     text-align: center;
 }
@@ -266,4 +259,148 @@ footer {
     font-family: 'Darker Grotesque';
 }
 
-/*  */
+/* show lobinho! */
+.lobinhos {
+    margin: 2em 10em;
+}
+.show_lobinho_titulo {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0em 2em 0em;
+}
+
+.show_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.show_botoes_ad {
+    background-color: #7AAC3A;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 40px;
+}
+
+.show_botoes_ex {
+    background-color: #DE5959;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 40px;
+}
+
+#descricao_lobinhos {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 1.5em;
+    color: #000000;
+    max-width: 460px;
+}
+
+/* adotar lobinho! */
+.secmain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+    
+.topo{
+    display: flex;
+    padding-bottom: 6rem;
+    color: #000000;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.topo h2{
+    font-size: 60px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-lobo{
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4rem;
+    width:100%;
+    color: #000000;
+}
+
+.nomeIdade{
+    width:100%;
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+}
+
+.single-input{
+    width:100%;
+    /*margin:1.875rem;*/
+    position: relative;
+}
+
+.single-input.idade1{
+    width:8%
+}
+
+.single-input label{
+   
+    font-size: 1.87rem;
+    font-weight: 500;
+    position: absolute;
+    left:0;
+    bottom: 25px;;
+    cursor:text;
+    transition: 0.5s ease-in-out;
+}
+
+.single-input input{
+    border: 0;
+    border-bottom: 2px solid #333333;
+    outline:0;
+}
+
+#nome, #idade, #email{
+    width: 100%;
+}
+
+#btn_adotar{
+    background-color: #2C5680;
+    width: 25%;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    font-weight: 400;
+    align-self: center;
+    cursor: pointer;
+}
+
+#btn_adotar:hover{
+    opacity: 0.8;
+}
+
