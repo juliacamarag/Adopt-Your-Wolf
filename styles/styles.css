@@ -259,4 +259,58 @@ footer {
     font-family: 'Darker Grotesque';
 }
 
-/*  */
+/* show lobinho! */
+.lobinhos {
+    margin: 2em 10em;
+}
+.show_lobinho_titulo {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0em 2em 0em;
+}
+
+.show_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.show_botoes_ad {
+    background-color: #7AAC3A;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 40px;
+}
+
+.show_botoes_ex {
+    background-color: #DE5959;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 40px;
+}
+
+#descricao_lobinhos {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 1.5em;
+    color: #000000;
+    max-width: 460px;
+}
+
+showgp {
+    margin: 2em 10em;
+    display: flex;
+}
