@@ -1,4 +1,4 @@
-html{
+html {
     font-family: 'Darker Grotesque';
     color: #FFFFFF;
     font-size: 24px;
@@ -68,7 +68,7 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 40px;
-    background-image: url("lobaogrande.png");
+    background-image: url("../src/lobaogrande.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
@@ -236,3 +236,27 @@ footer {
     font-size: 24px;
     cursor: pointer;
 }
+
+/* quem somos */
+.infos {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 10rem;
+    color: #000000;
+}
+
+.infos h1{
+    font-family: 'Roboto';
+    font-size: 48px;
+    text-align: center;
+}
+
+.infos p {
+    text-align: center;
+    font-family: 'Darker Grotesque';
+}
+
+/*  */
